@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<title>Mechanical Marauders</title>
+	<!--links to my external reference sheet for over arching styles-->
+	<link rel="stylesheet" type="text/css" href="mmstyle.css">
+</head>
+
+<body>
+
+<button id="btn"style="margin:.25em;font-size:2.5em;" onclick="change()">
+</button>
+
+<div id="navigation" class="navigation">
+<a href="index.html">
+<button>
+	<h3><font size="5em">
+		Home
+	</font></h3>
+</button>
+</a>
+</a>
+<a href="Outreach.html">
+<button>
+	<h3><font size="5em">
+		Outreach
+	</font></h3>
+</button>
+</a>
+<a href="mailto:ftc6123@gmail.com">
+<button>
+	<h3><font size="5em">
+		Email Us!
+	</font></h3>
+</button>
+</a>
+</div>
+
+<script>
+//this function executes when the button is clicked
+var div = document.getElementById("navigation");
+var btn = document.getElementById("btn");
+btn.childNodes[0].nodeValue="More";
+function change(){
+if(btn.childNodes[0].nodeValue=="More"){
+div.style.visibility = "visible";
+btn.childNodes[0].nodeValue="Less";
+}
+else{
+div.style.visibility = "hidden";
+btn.childNodes[0].nodeValue="More";
+}
+};
+</script>
+
+<header>Mechanical Marauders<img id="logo2" src="MMlogo3.jpg" style="display:block;margin:auto;" title="Mechanical Marauders' logo" align="right"/>
+</header>
+
+<div>
+<img src="MMlogo.jpg" style="display:block;margin:auto;" title="The Mechanical Marauders" />
+<h1>The Team</h1>
+<h2><u>Chloe<img src="chole.jpg" id="teampic"/></u></h2>
+<h2>Team Captain</h2>
+<p>Chloe is a senior at Panther Creek High School. She runs Cross Country at Panther Creek. She is highly motivated and eager to compete with anyone. Chloe is not your typical OMG teenage girl. In fact, she is anything but. She hates the bitter taste of coffee and is more likely to be found using a soldering iron than posting to social media. You can usually find Chloe working on the robot, doing her homework, or watching Netflix in her free time. Chloe has participated in four years of FLL. She has also competed on a FRC team for two years. This is her third year on FTC, but she can’t wait for this year, as all the team now has a year under their belt. She is not afraid to get her hands dirty and work on the robot. She plans on majoring in electrical engineering. Chloe is the team leader and is primarily in charge of the notebook. She has also organized meetings and trys to keep the other team members on task.</p>
+<h2><u>Ethan<img src="ethan.jpg" id="teampic"/></u></h2>
+<h2>CAD Designer</h2>
+<p>Ethan Flack is a Freshman at Panther Creek High School. Ethan works on building the robot as well as doing CAD designs of multiple iterations of the robot. As well as doing CAD drawings of the robot he also works on making 3d models for 3d printed parts. His main passions are video games and everything mechanical. He currently wants to be a mechanical engineer when he grows up. He also runs cross country in addition to robotics. He is also going to make a cad model of a demonstration bot, where rookie teams can see the models of the bot as well as instruction to give them a guide on building a robot for them to get some experience with robotics.</p>
+<h2><u>Julie<img src="julie.jpg" id="teampic"/></u></h2>
+<h2>Head Fundraiser</h2>
+<p>Julie Lee is a senior at Panther Creek High School, along with Chloe Flack. She is also a mother hen to 3 Red Star “chickdren.” This is her second year at FTC. Julie may seem like an unathletic and typical Asian girl, but she plays lacrosse on her school team, plays the viola (a.k.a. violin 2.0), and gets her hands dirty oil painting. Julie can be found sleeping almost anywhere or petting animals (most likely chickens or cats). She loves puns (more particularly math puns, which may DERIVE other people crazy), pickup lines, and corny jokes. As she is an overall oblivious person and an epitome of uncertainty, Julie is currently exploring options for her future. Julie looks forward to her last year at FTC with her friend Chloe and the peanut gallery.</p>
+<h2><u>Mohit<img src="mohit.jpg" id="teampic"/></h2></u>
+<h2>FTC Interface</h2>
+<p>Mohit Chhaya is a Freshman at Panther Creek High School. This is his second year doing FTC and he has done FLL 2 years in a row. You can usually find Mohit playing games on the computer with his friends Ethan Flack and Kaden Adam. Mohit also plays soccer. Mohit’s role on the team is working on the robot, mainly the drive system and checking on the FTC Forums to make sure the team is aware of any changes. He is planning to be programmer when he grows up, and he can already code a bit in C# </p>
+
+<h2><u>Aaron<img src="aaron.jpg" id="teampic"/></h2></u>
+<h2>Programmer</h2>
+<p>Aaron Jong is a tenth grader at Panther Creek High School. He is the Assistant Programmer on the FTC team. He helps with creating the autonomous programs and robot movement programs. In his free time, Aaron enjoys video games, programming computers, making bad puns, and reading (his reading schedule is booked). This is his second year of FTC, and has lots of experience from FLL in elementary school. Aaron wants to become a computer engineer in his future.</p>
+</div>
+
+<footer id="footer" align="center"><font-size="2px">
+Copyright 2017 Mechanical Marauders.
+</font>
+</footer>
+
+</body>
+</html>

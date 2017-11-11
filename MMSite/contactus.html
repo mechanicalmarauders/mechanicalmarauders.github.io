@@ -1,0 +1,61 @@
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<title>Mechanical Marauders</title>
+	<!--links to my external reference sheet for over arching styles-->
+	<link rel="stylesheet" type="text/css" href="mmstyle.css">
+</head>
+
+<body>
+
+<button id="btn"style="margin:.25em;font-size:2.5em;" onclick="change()">
+</button>
+
+<div id="navigation" class="navigation">
+<a href="MMexperiment.html">
+<button>
+	<h3><font size="5em">
+		Home
+	</font></h3>
+</button>
+</a>
+<a href="TeamPage.html">
+<button>
+	<h3><font size="5em">
+		Meet the team
+	</font></h3>
+</button>
+</a>
+<a href="Outreach.html">
+<button>
+	<h3><font size="5em">
+		Outreach
+	</font></h3>
+</button>
+</a>
+</div>
+
+<script>
+//this function executes when the button is clicked
+var div = document.getElementById("navigation");
+var btn = document.getElementById("btn");
+btn.childNodes[0].nodeValue="More";
+function change(){
+if(btn.childNodes[0].nodeValue=="More"){
+div.style.visibility = "visible";
+btn.childNodes[0].nodeValue="Less";
+}
+else{
+div.style.visibility = "hidden";
+btn.childNodes[0].nodeValue="More";
+}
+};
+</script>
+
+<header>Mechanical Marauders<img id="logo2" src="MMlogo3.jpg" style="display:block;margin:auto;" title="Mechanical Marauders' logo" align="right"/>
+</header>
+<div>
+<h1>
+<a href="mailto:ftc6123@gmail.com">Email Us!</a>
+</h1>
+</div>
+</body>

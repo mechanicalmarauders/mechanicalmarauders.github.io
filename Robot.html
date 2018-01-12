@@ -12,6 +12,73 @@
 
 </head>
 <body>
+    <button id="btn"style="margin:.25em;font-size:2.5em;" onclick="change()">
+  </button>
+
+  <div id="navigation" class="navigation">
+  <a href="MMexperiment.html">
+  </a>
+  <a href="TeamPage.html">
+  <button>
+  	<h3><font size="5em">
+  		Meet the team
+  	</font></h3>
+  </button>
+  </a>
+  <a href="Outreach.html">
+  <button>
+  	<h3><font size="5em">
+  		Outreach
+  	</font></h3>
+  </button>
+  </a>
+  <a href="Robot.html">
+  	<button>
+  		<h3><font size="5em">
+  			Robot
+  		</font></h3>
+  	</button>
+  </a>
+  <a href="mailto:ftc6123@gmail.com">
+  <button>
+  	<h3><font size="5em">
+  		Email Us!
+  	</font></h3>
+  </button>
+  </a>
+</div><!--
+  <script>
+  var btn = document.getElementById("btn")
+  var ph = document.getElementById("pagehead")
+
+  function hide(){
+    if (btn.style.visibility = "visible"){
+        ph.style.visibility = "hidden";
+    }
+    else{
+      btn.style.visibility = "visible"
+    }
+  }
+</script>-->
+  <script>
+  //this function executes when the button is clicked
+  var div = document.getElementById("navigation");
+  var btn = document.getElementById("btn");
+  btn.childNodes[0].nodeValue="More";
+  function change(){
+  if(btn.childNodes[0].nodeValue=="More"){
+  div.style.visibility = "visible";
+  btn.childNodes[0].nodeValue="Less";
+  }
+  else{
+  div.style.visibility = "hidden";
+  btn.childNodes[0].nodeValue="More";
+  }
+  };
+  </script>
+  <header>Mechanical Marauders<img id="logo2" src="MMLogo3.jpg" style="display:block;margin:auto;" align="right" padding-right="0px"/>
+  </header>
+
 <img src="undercont.gif" style="align:middle;vertical-align:middle;padding-bottom:100px;position:fixed;left:500px;"/>
   <p style="text-align:center;vertical-align:middle;position:fixed;top:430px;left:600px">Under Construction. <br />Come back later!</p>
 

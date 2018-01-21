@@ -134,7 +134,8 @@ marquee{
 }
 #pb2{
 	align:center;
-	background-image: url('https://media.giphy.com/media/xpJNIcakRligM/giphy.gif');
+	/*background-image: url('https://media.giphy.com/media/xpJNIcakRligM/giphy.gif');*/
+	top: 150px;
 	vertical-align: middle;
 	position: fixed;
 	left: 9px;

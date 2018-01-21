@@ -132,3 +132,20 @@ marquee{
 	font-size: 30px;
 	position: fixed;
 }
+#pb2{
+	align:center;
+	background-image: url('https://media.giphy.com/media/xpJNIcakRligM/giphy.gif');
+	vertical-align: middle;
+	position: fixed;
+	left: 9px;
+
+
+}
+#pb2text{
+	float: right;
+	text-align: right;
+	background-color: #B0E2FF;
+}
+#spbo{
+	background-color: #B0E2FF;
+}

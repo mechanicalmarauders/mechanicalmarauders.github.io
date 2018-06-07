@@ -1,0 +1,111 @@
+<!doctype html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Awards!</title>
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<!--links to my external reference sheet for over arching styles-->
+	<link rel="stylesheet" type="text/css" href="mmstyle.css">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112316365-1"></script>
+	<script>
+  		window.dataLayer = window.dataLayer || [];
+  		function gtag(){dataLayer.push(arguments);}
+  		gtag('js', new Date());
+
+ 		gtag('config', 'UA-112316365-1');
+	</script>
+</head>
+<body>
+	<button id="btn"style="margin:.25em;font-size:2.5em;" onclick="change()">
+</button>
+
+<div id="navigation" class="navigation">
+<a href="MMexperiment.html">
+</a>
+<a href="TeamPage.html">
+<button>
+	<h3><font size="5em">
+		Meet the team
+	</font></h3>
+</button>
+</a>
+<a href="Outreach.html">
+<button>
+	<h3><font size="5em">
+		Outreach
+	</font></h3>
+</button>
+</a>
+<a href="Robot.html">
+	<button>
+		<h3><font size="5em">
+			Robot
+		</font></h3>
+	</button>
+</a>
+<a href="PB2.html">
+	<button>
+		<h3><font size="5em">
+			Pushbot 2.0
+		</font></h3>
+	</button>
+</a>
+<a href="index.html">
+<button>
+	<h3><font size="5em">
+		Home
+	</font></h3>
+</button>
+</a>
+<a href="mailto:ftc6123@gmail.com">
+<button>
+	<h3><font size="5em">
+		Email Us!
+	</font></h3>
+</button>
+</a>
+</div>
+<script>
+//this function executes when the button is clicked
+var div = document.getElementById("navigation");
+var btn = document.getElementById("btn");
+btn.childNodes[0].nodeValue="More";
+function change(){
+if(btn.childNodes[0].nodeValue=="More"){
+div.style.visibility = "visible";
+btn.childNodes[0].nodeValue="Less";
+}
+else{
+div.style.visibility = "hidden";
+btn.childNodes[0].nodeValue="More";
+}
+};
+</script>
+<header>Mechanical Marauders<img id="logo2" src="MMLogo3.jpg" style="display:block;margin:auto;" align="right"/>
+</header>
+<div>
+<span>
+<img src="MMlogo.jpg" style="display:block;margin:auto;" title="Mechanical Marauders' logo" align="left" id="awardslogo" />
+</span>
+<h1  style="text-decoration: underline;">Awards!</h1>
+<h2 >2016-2017: Velocity Vortex</h2>
+	<ul>
+		<li>Second Place at North Carolina States
+	</ul>
+<h2 >2017-2018: Relic Recovery</h2>
+	<ul>
+		<li>Third Place at First Regional</li>
+		<li>First Place at Second Regional</li>
+		<li>Inspire Award at Second Regional</li>
+		<li>First Place at North Carolina States</li>
+	</ul>
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+</body>
+</html>
